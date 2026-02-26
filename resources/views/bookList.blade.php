@@ -6,8 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Home</h1>
+    <h1>All Books: </h1>
 
-    <a href = "/addbook">Add book</a>
+    <?php
+        echo "Title: ". $_POST["title"]. "<br>";
+    ?>
 </body>
 </html>
